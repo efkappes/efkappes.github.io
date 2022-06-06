@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, header, footer {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #535C19;
+    color: rgb(85, 83, 83);
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    /* background-color: #CADA4E; */
+    background-color: #8C9C2A;
+    /* background-color: #C0DB69; */
+    color: black;
+}
+
+header h1 {
+    font-size: 30px;
+    /* border: 3px solid rgb(43, 39, 39, 0.3);
+    border-radius: 20px; */
+    padding: .5em;
+    margin: 10px 30px;
+}
+
+header nav {
+    border: 10px solid rgb(43, 39, 39, 0.3);
+    /* border-radius: 5px; */
+    padding: .5em;
+    margin-top: 5px;
+}
+
+header nav a {
+    color: black;
+    /* display: block; */
+    width: 25%;
+    float: left;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #535C19;
+    color: black;
+}
+
+#about {
+    background-color: lightgray;
+    padding: 2em 10em;
+}
+
+#skills {
+    background-color: #C6DB3B;
+    padding: 2em 10em;
+}
+
+#work-history {
+    background-color: #AFC234;
+    padding: 2em 10em;
+}
+
+/* .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flex-container .side-nav {
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(248, 194, 129);
+}  
+
+.flex-container .side-nav a {
+    color: rgb(85, 83, 83);
+}
+
+.flex-container .blog {
+    padding: 10px;
+    background-color: bisque;
+    color: rgb(85, 83, 83);
+}
+
+#title {
+    color: rgb(168, 87, 29);
+} */
+
+/* @media (min-width: 50px) {
+    .flex-container .side-nav {
+        display: none;
+    }
+} */
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 60px;
+        margin: 10px 300px;
+    }
+
+    header nav {
+        border-radius: 20px;
+        padding: 1em;
+        margin-right: 300px;
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+
+    header a:link {
+        display: inline;
+    }
+    
+    .flex-container .side-nav {
+        display: block;
+    }
+    
+    .flex-container .blog {
+        padding: 100px;    
+    }
+} 
+
+@media (min-width: 1100px) {
+    header nav {
+        width: 33.33%;
+        margin-left: 400px;
+    }
+} 
