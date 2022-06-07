@@ -7,12 +7,16 @@ html {
 }
 
 body, header, footer {
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 body {
     background-color: #535C19;
-    color: rgb(85, 83, 83);
+    color: #333333;
+    /* color: rgb(85, 83, 83); */
 }
 
 header {
@@ -22,10 +26,16 @@ header {
     background-color: #8C9C2A;
     /* background-color: #C0DB69; */
     color: black;
+    /* color: #333333; */
 }
 
 header h1 {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-size: 30px;
+    font-weight: 500;
+    /* text-shadow: 1px 1px 2px lightcyan, 0 0 25px lightpink, 0 0 5px lightgoldenrodyellow; */
+    /* font-size: 5em; */
     /* border: 3px solid rgb(43, 39, 39, 0.3);
     border-radius: 20px; */
     padding: .5em;
@@ -53,6 +63,19 @@ footer {
     color: black;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1em;
+}
+
+.card {
+    width: 50%;
+    padding: 0 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #about {
     background-color: lightgray;
     padding: 2em 10em;
@@ -65,6 +88,11 @@ footer {
 
 #work-history {
     background-color: #AFC234;
+    padding: 2em 10em;
+}
+
+#projects {
+    background-color: lightgray;
     padding: 2em 10em;
 }
 

@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -15,7 +17,8 @@
     <header>
         <div>
             <h1>Frances Kappes</h1>
-            <p>[one-sentence/phrase descriptor?] color test</p>    
+            <!-- <p id="name">Frances Kappes</p> -->
+            <p>[one-sentence/phrase descriptor?] Problem Solver and Developer(?) color test</p>    
         </div>
         <!-- <nav>
             <div><a href="#">About</a></div>
@@ -27,17 +30,65 @@
     <main>
         <div id="about">
             <h2>About</h2>
-            <p>me summary goes here</p>
+            <p>Over 20 years of experience in software design and development, 
+                working both collaboratively and independently. 
+                Using a solutions-oriented mindset, I endeaver to balance end user needs with
+                the design and development of a flexible, scalable, maintainable code base.</p>
             <p>color test</p>
         </div>
-        <div id="skills">
+        <div class="flex-container" id="skills">
             <h2>Skills</h2>
-            <p>I got skillz</p>
-            <p>color test</p>
+            <div class="card">
+                <h3>Languages</h3>
+                <p>HTML, CSS, JavaScript, Python, SQL</p>
+            </div>
+            <div class="card">
+                <h3>Tools</h3>
+                <p>Mac/Windows/Linux, Command Line, Text Editors/IDEs, Sqlite, Git CLI, 
+                    GitHub, Ajax (Axios/Fetch), Promises, HTTP, REST APIs, Deployment/Heroku, 
+                    Virtual Environments/Pipenv, DOM Manipulation</p>
+            </div>
+            <div class="card">
+                <h3>Libraries and Frameworks</h3>
+                <p>Django, Vue, Flask, CSS Libraries, Pip Packages</p>
+            </div>
         </div>
         <div id="work-history">
             <h2>Work History</h2>
-            <p>work stuff i did and where</p>
+            <h3>Noventis/Wex</h3>
+                <p>Bill payment processing company. At inception, Noventis built a patented payment platform 
+                    that facilitated walk-in cash-only bill payments and grew from $0 in bill payments processed 
+                    per day to $1B in bill payments processed per year. The company then transitioned to an 
+                    online bill payment solution and ramped up from $1k total payments per day to $2B total 
+                    payments per year via the online solution.
+                </p>
+                <p><strong>Software Architect</strong> Wrote functional specifications for 
+                    database and java engineers and lead design meetings with software and QA engineers. 
+                    Worked with product managers to evaluate and refine business requirements. 
+                    Lead pre-deployment meetings with database administrators and system administrators 
+                    to educate them on the new or modified functionality. Also collaborated with and wrote 
+                    functional specifications for external partners for development of APIs and data 
+                    file exchange processes. Occasionally wrote and executed test cases when help was 
+                    needed with testing (sometimes as the sole tester for a project). Occasionally wrote 
+                    database code when help was needed with database development. Participated in code reviews.
+                    Lead SCRUM planning meetings. Participated in weekly meetings with technical management team and project 
+                    managers to discuss development pipeline.</p>
+                <p><strong>Database Engineer</strong> Developed database objects to support both OLTP
+                    and DSS functionality. Developed database objects and shell scripts to support new or 
+                    modified database import and export processes.</p>
+            <br><hr><br>
+            <h3>Nextlink Interactive</h3>
+                <p>Interactive Voice Response application development company.</p>
+                <p><strong>Database Administrator</strong> Performed DBA duties for production, staging,
+                    and development databases. Wrote database procedures and shell scripts to support bulk
+                    data import and export processes.
+                </p>
+                <p><strong>Database Developer</strong> Developed database objects to support IVR applications
+                    and customer reports.</p>
+            </div>
+        <div id="projects">
+            <h2>Projects</h2>
+            <p>my future awesome projects</p>
             <p>color test</p>
         </div>
     </main>
